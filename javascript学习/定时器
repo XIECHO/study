@@ -1,0 +1,16 @@
+1.setTimeout()
+
+let timerId = setTimeout(func|code, delay);
+func|code是将要推迟执行的函数名或者一段代码，第二个参数delay是推迟执行的毫秒数.
+
+setTimeout('console.log(2)', 1000);
+
+function f(){console.log(2)}
+setTimeout(f, 1000)
+
+setTimeout(function(a,b){console.log(a+b),1000,1,1}
+
+2.setInterval()
+
+3.clearTimeout(),clearInterval()
+
